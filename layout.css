@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #ea8685;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #778beb;
+}
+nav {
+    background-color:#786fa6;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:#f3a683;
+}
+nav ul {
+    list-style: upper-roman;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #f78fb3;
+}
+nav a {
+    color: #e15f41;
+    text-decoration: wavy;
+    font-size: 18px;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    background-color: #c44569;
+    flex-basis: 60%;
+    padding: 25px 30px;
+}
+aside {
+    background-color: #f5cd79;
+    flex-basis: 38%;
+    padding: 25px 30px;
+}
+aside ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+footer {
+    background-color: #303952;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #f78fb3;
+}
+#hero {
+     background-color: #e77f67;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #778beb;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#hero a {
+    background-color: #303952;
+    color: aliceblue;
+    display: inline;
+    padding: 10px 25px;
+    margin: 15px;
+}

@@ -1,0 +1,9 @@
+textarea {
+    color: white;
+    background-color: black;
+    padding: 25px;
+}
+.one label  {
+    display: inline-block;
+    color: aqua;
+}
